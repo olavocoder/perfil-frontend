@@ -8,6 +8,10 @@ export const Photo = styled.div`
     height: 453px;
     margin-bottom: -140px;
     z-index: 1;
+    transition: 0.3s;
+    &:hover{
+        background-color: rgb(0 0 0 / 51%);
+    }
     img{
         border-radius: 100%;
         padding: 25px;
@@ -21,6 +25,10 @@ export const UserInfo = styled.div`
     text-align: center;
     box-shadow: inset 0px -1px 20px 5px #bbbbbb;
     color: #fff;
+    transition: 0.3s;
+    &:hover{
+        background-color: rgb(0 0 0 / 51%);
+    }
     h1{
         margin-bottom: 5px;
         font-size: 55px;
